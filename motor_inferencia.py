@@ -1,3 +1,6 @@
+#=================================Clase: motorInferencia=========================================
+#Motor de inferencia principal para la toma de desición y filtrado de rutas de tráfico.
+#================================================================================================
 class MotorInferencia:
     def __init__(self, base_conocimiento):
         self.bc = base_conocimiento
